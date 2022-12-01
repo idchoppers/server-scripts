@@ -1,0 +1,5 @@
+[Unit]
+PartOf=radserver0.service
+
+[Socket]
+ListenFIFO=%t/radserver0.stdin

@@ -1,0 +1,5 @@
+[Unit]
+PartOf=xonoitc.service
+
+[Socket]
+ListenFIFO=%t/xonotic.stdin
